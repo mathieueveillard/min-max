@@ -1,3 +1,10 @@
-const linear = (x: number): number => 0.5 * x + 1;
+type Boundaries = {
+  min: number;
+  max: number;
+};
 
-export default linear;
+const minmax = ({ min, max }: Boundaries): number => {
+  return Math.round(min + (max - min) * Math.random());
+};
+
+export default minmax;

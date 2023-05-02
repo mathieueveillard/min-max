@@ -1,21 +1,3 @@
-# js-kata-starter-pbt
+# min-max
 
-Starter project for kata with Property-Based Testing (Node, TypeScript, Jest, fast-check)
-
-## Installation
-
-```text
-git clone https://github.com/mathieueveillard/js-kata-starter-pbt.git
-cd js-kata-starter-pbt
-npm install
-```
-
-## Development
-
-```text
-npm test
-```
-
-## Documentation
-
-[fast-check](https://fast-check.dev/)
+Write a function that, given two natural numbers `min` and `max`, returns a random natural number comprised between those boundaries.
